@@ -19,10 +19,14 @@ int main(void)
         !            NOT
     */
 
+   // 1 means true and 0 means false
+
+   printf("expression is: %d\n", !(1 && 0));
+
    int x;
 
    x = 100;
-   printf("%d ", x > 10);  // 1 means true and 0 means false
+   printf("check if x is greater than 10: %d", x > 10);
 
    return 0;
 }
